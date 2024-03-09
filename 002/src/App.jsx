@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 function TodoList() {
   const [todos, setTodos] = useState([]);
