@@ -13,12 +13,12 @@ const SiteConfig = {
     {
       id : 2 ,
       name : "آرشیو",
-      href : "/"
+      href : "/archive"
     },
     {
       id : 3 ,
       name : "تماس با ما", 
-      href : "/"
+      href : "/contacts"
     }
   ]
 };

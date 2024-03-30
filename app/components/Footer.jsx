@@ -6,7 +6,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center p-10 bg-base-100 text-base-content rounded">
+    <footer className="footer footer-center p-10 text-base-content rounded">
       <ul className="grid grid-flow-col gap-4">
         {SiteConfig.nav.map((nav) => (
           <li key={nav.id}>

@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang={SiteConfig.lang} dir={SiteConfig.dir}>
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-base-100`}>
         <Navbar />
         {children}
         <Footer />
