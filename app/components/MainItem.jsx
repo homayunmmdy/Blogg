@@ -9,7 +9,7 @@ const MainItem = ({ data }) => {
         <div className=" overflow-hidden rounded-md transition-all hover:scale-105   ">
           <Link
             className="relative block aspect-video"
-            href="/"
+            href="/post/1"
           >
             <Image
               src={data.imgurl}
