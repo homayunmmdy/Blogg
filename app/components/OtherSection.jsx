@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const OtherSection = ({ data }) => {
   return (
-    <div>
+    <>
       <div className="group cursor-pointer">
         <div
           className=" overflow-hidden rounded-md bg-gray-100
@@ -36,7 +36,7 @@ const OtherSection = ({ data }) => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

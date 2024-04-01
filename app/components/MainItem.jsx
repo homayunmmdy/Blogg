@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const MainItem = ({ data }) => {
   return (
-    <div className="col-span-6">
+    <div className="col-span-12 md:col-span-6">
       <div className="group cursor-pointer">
         <div className=" overflow-hidden rounded-md transition-all hover:scale-105   ">
           <Link
