@@ -1,5 +1,7 @@
 # Blogg
 
+![Screenshot from 2024-08-16 17-18-14](https://github.com/user-attachments/assets/b5f9f99b-7b25-49ce-82aa-de839ce788fd)
+
 
 **Blogg** is a modern, lightweight blog platform built with React, TypeScript, Tailwind CSS, and DaisyUI. It allows to use ready compoenets for your blog project.
 
