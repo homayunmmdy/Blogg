@@ -1,16 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { MainSecType } from "../entities";
 
-const MainItem = ({ data }) => {
+const MainItem = ({ data }: { data: MainSecType }) => {
   return (
     <div className="col-span-12 md:col-span-6">
       <div className="group cursor-pointer">
         <div className=" overflow-hidden rounded-md transition-all hover:scale-105   ">
-          <Link
-            className="relative block aspect-video"
-            href="/post/1"
-          >
+          <Link className="relative block aspect-video" href="/post/1">
             <Image
               src={data.imgurl}
               alt={data.title}
@@ -32,9 +30,7 @@ const MainItem = ({ data }) => {
             </h2>
             <div className="hidden">
               <p className="mt-2 line-clamp-3 text-sm text-gray-500 dark:text-gray-400">
-                <Link href="/">
-                  {data.desc}
-                </Link>
+                <Link href="/">{data.desc}</Link>
               </p>
             </div>
           </div>

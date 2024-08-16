@@ -4,7 +4,7 @@ const ThemeController = () => {
   return (
     <div className="dropdown ">
       <div tabIndex={0} role="button" className="btn m-1">
-        تم ها
+         Themes
         <svg
           width="12px"
           height="12px"
@@ -17,14 +17,14 @@ const ThemeController = () => {
       </div>
       <ul
         tabIndex={0}
-        className="absolute left-1 dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52"
+        className="absolute right-1 dropdown-content z-[1] p-2 shadow-2xl bg-base-300 rounded-box w-52"
       >
         <li>
           <input
             type="radio"
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="روشن"
+            aria-label="light"
             value="light"
           />
         </li>
@@ -33,7 +33,7 @@ const ThemeController = () => {
             type="radio"
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="رترو"
+            aria-label="retro"
             value="retro"
           />
         </li>
@@ -42,7 +42,7 @@ const ThemeController = () => {
             type="radio"
             name="theme-dropdown"
             className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-            aria-label="ولنتاین"
+            aria-label="valentine"
             value="valentine"
           />
         </li>

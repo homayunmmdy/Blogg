@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </nav>
       <aside>
-        <p>کپی رایت © {new Date().getFullYear()} -تمامی حقوق برای {SiteConfig.name} محفوظ است</p>
+      <p>Copyright © {new Date().getFullYear()} - All rights reserved for {SiteConfig.name}</p>
       </aside>
     </footer>
   );
